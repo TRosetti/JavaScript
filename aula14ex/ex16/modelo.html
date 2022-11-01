@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercício JavaScript</title>
+</head>
+<body>
+    <header>
+        <h1>Hora do Dia</h1>
+    </header>
+
+    <section>
+       <div id="form">
+           <label for="inicio">
+               <form action="" method="get">
+                    Início:<input type="number" name="inicio" id="inicio" required placeholder="1">
+               </form>
+           </label>
+           <label for="fim">
+               <form action="" method="get">
+                   Fim:<input type="number" name="fim" id="fim" required placeholder="100">
+               </form>
+           </label>
+           <label for="passo">
+               <form action="" method="get">
+                   Passo: <input type="number" name="passo" id="passo" required placeholder="5">
+               </form>
+           </label>
+           <form action="" method="get">
+               <input type="button" value="Contar" onclick="contar()" onkeypress="contar()">
+           </form>
+       </div>
+       <div id="resposta">
+            Preparando a conta....
+       </div>
+    </section>
+
+    <footer>
+        <p>&copy; Thiago Rosetti</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
